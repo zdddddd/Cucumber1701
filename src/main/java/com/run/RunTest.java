@@ -11,7 +11,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
                 "rerun:target/site/rerun.txt",
                 "json:target/cucumberjson.json"
         },
-        tags = {"~@p2"},
+        tags = {"@p1"},
         glue = {"com.steps"}
 )
 
